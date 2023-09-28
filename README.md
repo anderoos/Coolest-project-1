@@ -1,4 +1,4 @@
-# Group 1 Project Proposal
+
 ## Property Investment Opportunities in 2025 
 
 ## Description
@@ -43,4 +43,3 @@ Zillow and Census (to normalize prices with population)
 * [Paul Samaniego](https://github.com/Psamaniego001)
 * [Riya Gajjar](https://github.com/rgajjar111)
 * [Madeline Cruz](https://github.com/Mad-Cruz)
-
