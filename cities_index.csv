@@ -1,378 +1,476 @@
-RegionName,StateName
-"New York, NY",NY
-"Los Angeles, CA",CA
-"Chicago, IL",IL
-"Dallas, TX",TX
-"Houston, TX",TX
-"Washington, DC",VA
-"Philadelphia, PA",PA
-"Miami, FL",FL
-"Atlanta, GA",GA
-"Boston, MA",MA
-"Phoenix, AZ",AZ
-"San Francisco, CA",CA
-"Riverside, CA",CA
-"Detroit, MI",MI
-"Seattle, WA",WA
-"Minneapolis, MN",MN
-"San Diego, CA",CA
-"Tampa, FL",FL
-"Denver, CO",CO
-"Baltimore, MD",MD
-"St. Louis, MO",MO
-"Orlando, FL",FL
-"Charlotte, NC",NC
-"San Antonio, TX",TX
-"Portland, OR",OR
-"Sacramento, CA",CA
-"Pittsburgh, PA",PA
-"Cincinnati, OH",OH
-"Austin, TX",TX
-"Las Vegas, NV",NV
-"Kansas City, MO",MO
-"Columbus, OH",OH
-"Indianapolis, IN",IN
-"Cleveland, OH",OH
-"San Jose, CA",CA
-"Nashville, TN",TN
-"Virginia Beach, VA",VA
-"Providence, RI",RI
-"Jacksonville, FL",FL
-"Milwaukee, WI",WI
-"Oklahoma City, OK",OK
-"Raleigh, NC",NC
-"Memphis, TN",TN
-"Richmond, VA",VA
-"Louisville, KY",KY
-"New Orleans, LA",LA
-"Salt Lake City, UT",UT
-"Hartford, CT",CT
-"Buffalo, NY",NY
-"Birmingham, AL",AL
-"Rochester, NY",NY
-"Grand Rapids, MI",MI
-"Tucson, AZ",AZ
-"Urban Honolulu, HI",HI
-"Tulsa, OK",OK
-"Fresno, CA",CA
-"Worcester, MA",MA
-"Omaha, NE",NE
-"Bridgeport, CT",CT
-"Greenville, SC",SC
-"Albuquerque, NM",NM
-"Bakersfield, CA",CA
-"Albany, NY",NY
-"Knoxville, TN",TN
-"Baton Rouge, LA",LA
-"New Haven, CT",CT
-"El Paso, TX",TX
-"Allentown, PA",PA
-"Oxnard, CA",CA
-"Columbia, SC",SC
-"North Port, FL",FL
-"Dayton, OH",OH
-"Charleston, SC",SC
-"Greensboro, NC",NC
-"Stockton, CA",CA
-"Cape Coral, FL",FL
-"Boise City, ID",ID
-"Colorado Springs, CO",CO
-"Little Rock, AR",AR
-"Lakeland, FL",FL
-"Akron, OH",OH
-"Des Moines, IA",IA
-"Springfield, MA",MA
-"Ogden, UT",UT
-"Madison, WI",WI
-"Winston, NC",NC
-"Deltona, FL",FL
-"Syracuse, NY",NY
-"Provo, UT",UT
-"Toledo, OH",OH
-"Wichita, KS",KS
-"Durham, NC",NC
-"Augusta, GA",GA
-"Palm Bay, FL",FL
-"Jackson, MS",MS
-"Harrisburg, PA",PA
-"Spokane, WA",WA
-"Scranton, PA",PA
-"Chattanooga, TN",TN
-"Modesto, CA",CA
-"Lancaster, PA",PA
-"Portland, ME",ME
-"Youngstown, OH",OH
-"Lansing, MI",MI
-"Fayetteville, AR",AR
-"Fayetteville, NC",NC
-"Lexington, KY",KY
-"Pensacola, FL",FL
-"Santa Rosa, CA",CA
-"Reno, NV",NV
-"Huntsville, AL",AL
-"Port St. Lucie, FL",FL
-"Myrtle Beach, SC",SC
-"Springfield, MO",MO
-"Visalia, CA",CA
-"Killeen, TX",TX
-"Asheville, NC",NC
-"York, PA",PA
-"Vallejo, CA",CA
-"Santa Maria, CA",CA
-"Salinas, CA",CA
-"Salem, OR",OR
-"Mobile, AL",AL
-"Reading, PA",PA
-"Corpus Christi, TX",TX
-"Manchester, NH",NH
-"Fort Wayne, IN",IN
-"Gulfport, MS",MS
-"Salisbury, MD",DE
-"Flint, MI",MI
-"Peoria, IL",IL
-"Canton, OH",OH
-"Savannah, GA",GA
-"Shreveport, LA",LA
-"Trenton, NJ",NJ
-"Montgomery, AL",AL
-"Davenport, IA",IL
-"Tallahassee, FL",FL
-"Eugene, OR",OR
-"Naples, FL",FL
-"Ann Arbor, MI",MI
-"Ocala, FL",FL
-"Hickory, NC",NC
-"Huntington, WV",OH
-"Fort Collins, CO",CO
-"Rockford, IL",IL
-"Lincoln, NE",NE
-"Gainesville, FL",FL
-"Boulder, CO",CO
-"Green Bay, WI",WI
-"Columbus, GA",GA
-"South Bend, IN",IN
-"Spartanburg, SC",SC
-"Greeley, CO",CO
-"Lubbock, TX",TX
-"Clarksville, TN",TN
-"Roanoke, VA",VA
-"Evansville, IN",IN
-"Kingsport, TN",TN
-"Kennewick, WA",WA
-"Utica, NY",NY
-"Hagerstown, MD",MD
-"Duluth, MN",MN
-"Wilmington, NC",NC
-"San Luis Obispo, CA",CA
-"Crestview, FL",FL
-"Merced, CA",CA
-"Cedar Rapids, IA",IA
-"Atlantic City, NJ",NJ
-"Bremerton, WA",WA
-"Santa Cruz, CA",CA
-"Erie, PA",PA
-"Norwich, CT",CT
-"Amarillo, TX",TX
-"Tuscaloosa, AL",AL
-"Kalamazoo, MI",MI
-"Lynchburg, VA",VA
-"Yakima, WA",WA
-"Fargo, ND",ND
-"Binghamton, NY",NY
-"Fort Smith, AR",AR
-"Appleton, WI",WI
-"Prescott Valley, AZ",AZ
-"Macon, GA",GA
-"Barnstable Town, MA",MA
-"Daphne, AL",AL
-"Rochester, MN",MN
-"Lafayette, IN",IN
-"Champaign, IL",IL
-"Medford, OR",OR
-"Lebanon, NH",NH
-"Charlottesville, VA",VA
-"Lake Charles, LA",LA
-"Chico, CA",CA
-"Hilton Head Island, SC",SC
-"Athens, GA",GA
-"Lake Havasu City, AZ",AZ
-"Columbia, MO",MO
-"Springfield, IL",IL
-"Monroe, LA",LA
-"Elkhart, IN",IN
-"Johnson City, TN",TN
-"Yuma, AZ",AZ
-"Gainesville, GA",GA
-"Jacksonville, NC",NC
-"Florence, SC",SC
-"Hilo, HI",HI
-"St. Cloud, MN",MN
-"Racine, WI",WI
-"Bend, OR",OR
-"Saginaw, MI",MI
-"Warner Robins, GA",GA
-"Torrington, CT",CT
-"Punta Gorda, FL",FL
-"Redding, CA",CA
-"Kingston, NY",NY
-"Panama City, FL",FL
-"Dover, DE",DE
-"Jackson, TN",TN
-"Yuba City, CA",CA
-"St. George, UT",UT
-"Muskegon, MI",MI
-"Abilene, TX",TX
-"Iowa City, IA",IA
-"Midland, TX",TX
-"Bloomington, IL",IL
-"Oshkosh, WI",WI
-"Eau Claire, WI",WI
-"Greenville, NC",NC
-"Burlington, NC",NC
-"East Stroudsburg, PA",PA
-"Pueblo, CO",CO
-"Wausau, WI",WI
-"Kahului, HI",HI
-"Janesville, WI",WI
-"Bloomington, IN",IN
-"Jackson, MI",MI
-"State College, PA",PA
-"Sebastian, FL",FL
-"Madera, CA",CA
-"Chambersburg, PA",PA
-"Vineland, NJ",NJ
-"Idaho Falls, ID",ID
-"Grand Junction, CO",CO
-"Elizabethtown, KY",KY
-"Niles, MI",MI
-"Monroe, MI",MI
-"Concord, NH",NH
-"Alexandria, LA",LA
-"Traverse City, MI",MI
-"Bangor, ME",ME
-"Homosassa Springs, FL",FL
-"Hanford, CA",CA
-"Jefferson City, MO",MO
-"Florence, AL",AL
-"Dothan, AL",AL
-"Albany, GA",GA
-"Ottawa, IL",IL
-"Valdosta, GA",GA
-"Logan, UT",UT
-"Flagstaff, AZ",AZ
-"Rocky Mount, NC",NC
-"Pottsville, PA",PA
-"Dalton, GA",GA
-"Lebanon, PA",PA
-"Morristown, TN",TN
-"Winchester, VA",VA
-"Wheeling, WV",OH
-"La Crosse, WI",WI
-"Napa, CA",CA
-"Sumter, SC",SC
-"Eureka, CA",CA
-"Battle Creek, MI",MI
-"Sherman, TX",TX
-"Jonesboro, AR",AR
-"Bismarck, ND",ND
-"Hammond, LA",LA
-"Pittsfield, MA",MA
-"Mount Vernon, WA",WA
-"Jamestown, NY",NY
-"The Villages, FL",FL
-"Albany, OR",OR
-"Lawton, OK",OK
-"Cleveland, TN",TN
-"Sierra Vista, AZ",AZ
-"Staunton, VA",VA
-"Augusta, ME",ME
-"Altoona, PA",PA
-"New Bern, NC",NC
-"Farmington, NM",NM
-"St. Joseph, MO",MO
-"Holland, MI",MI
-"Goldsboro, NC",NC
-"Watertown, NY",NY
-"Sheboygan, WI",WI
-"Weirton, WV",OH
-"Missoula, MT",MT
-"Anniston, AL",AL
-"Brunswick, GA",GA
-"California, MD",MD
-"Twin Falls, ID",ID
-"Cookeville, TN",TN
-"Muncie, IN",IN
-"Michigan City, IN",IN
-"Roseburg, OR",OR
-"Longview, WA",WA
-"Kankakee, IL",IL
-"Richmond, KY",KY
-"Tullahoma, TN",TN
-"Whitewater, WI",WI
-"Grand Forks, ND",MN
-"Decatur, IL",IL
-"LaGrange, GA",GA
-"Bay City, MI",MI
-"Fond du Lac, WI",WI
-"Gettysburg, PA",PA
-"Kalispell, MT",MT
-"Mankato, MN",MN
-"Salem, OH",OH
-"Truckee, CA",CA
-"Sebring, FL",FL
-"Cheyenne, WY",WY
-"Hot Springs, AR",AR
-"Shelby, NC",NC
-"Pinehurst, NC",NC
-"Paducah, KY",KY
-"Victoria, TX",TX
-"Rome, GA",GA
-"Sevierville, TN",TN
-"Albertville, AL",AL
-"Brainerd, MN",MN
-"Cumberland, MD",MD
-"Ocean City, NJ",NJ
-"Corvallis, OR",OR
-"Corning, NY",NY
-"Sunbury, PA",PA
-"Parkersburg, WV",WV
-"Beaver Dam, WI",WI
-"Grants Pass, OR",OR
-"New Castle, PA",PA
-"Watertown, WI",WI
-"Great Falls, MT",MT
-"Midland, MI",MI
-"Kokomo, IN",IN
-"Helena, MT",MT
-"Key West, FL",FL
-"Columbus, IN",IN
-"Manitowoc, WI",WI
-"Plattsburgh, NY",NY
-"Casper, WY",WY
-"Glenwood Springs, CO",CO
-"Seneca, SC",SC
-"Olean, NY",NY
-"Searcy, AR",AR
-"Port Angeles, WA",WA
-"Heber, UT",UT
-"Quincy, IL",IL
-"Frankfort, KY",KY
-"Danville, IL",IL
-"Jefferson, GA",GA
-"Shawnee, OK",OK
-"Greeneville, TN",TN
-"Morehead City, NC",NC
-"Clearlake, CA",CA
-"Farmington, MO",MO
-"Baraboo, WI",WI
-"Laconia, NH",NH
-"Georgetown, SC",SC
-"Crossville, TN",TN
-"Charleston, IL",IL
-"Sterling, IL",IL
-"Branson, MO",MO
-"Boone, NC",NC
-"Bartlesville, OK",OK
-"Bardstown, KY",KY
-"McMinnville, TN",TN
-"Kill Devil Hills, NC",NC
+,RegionName,StateName
+0,"New York, NY",NY
+1,"Los Angeles, CA",CA
+2,"Chicago, IL",IL
+3,"Dallas, TX",TX
+4,"Houston, TX",TX
+5,"Washington, DC",VA
+6,"Philadelphia, PA",PA
+7,"Miami, FL",FL
+8,"Atlanta, GA",GA
+9,"Boston, MA",MA
+10,"Phoenix, AZ",AZ
+11,"San Francisco, CA",CA
+12,"Riverside, CA",CA
+13,"Detroit, MI",MI
+14,"Seattle, WA",WA
+15,"Minneapolis, MN",MN
+16,"San Diego, CA",CA
+17,"Tampa, FL",FL
+18,"Denver, CO",CO
+19,"Baltimore, MD",MD
+20,"St. Louis, MO",MO
+21,"Orlando, FL",FL
+22,"Charlotte, NC",NC
+23,"San Antonio, TX",TX
+24,"Portland, OR",OR
+25,"Sacramento, CA",CA
+26,"Pittsburgh, PA",PA
+27,"Cincinnati, OH",OH
+28,"Austin, TX",TX
+29,"Las Vegas, NV",NV
+30,"Kansas City, MO",MO
+31,"Columbus, OH",OH
+32,"Indianapolis, IN",IN
+33,"Cleveland, OH",OH
+34,"San Jose, CA",CA
+35,"Nashville, TN",TN
+36,"Virginia Beach, VA",VA
+37,"Providence, RI",RI
+38,"Jacksonville, FL",FL
+39,"Milwaukee, WI",WI
+40,"Oklahoma City, OK",OK
+41,"Raleigh, NC",NC
+42,"Memphis, TN",TN
+43,"Richmond, VA",VA
+44,"Louisville, KY",KY
+45,"New Orleans, LA",LA
+46,"Salt Lake City, UT",UT
+47,"Hartford, CT",CT
+48,"Buffalo, NY",NY
+49,"Birmingham, AL",AL
+50,"Rochester, NY",NY
+51,"Grand Rapids, MI",MI
+52,"Tucson, AZ",AZ
+53,"Urban Honolulu, HI",HI
+54,"Tulsa, OK",OK
+55,"Fresno, CA",CA
+56,"Worcester, MA",MA
+57,"Omaha, NE",NE
+58,"Bridgeport, CT",CT
+59,"Greenville, SC",SC
+60,"Albuquerque, NM",NM
+61,"Bakersfield, CA",CA
+62,"Albany, NY",NY
+63,"Knoxville, TN",TN
+64,"Baton Rouge, LA",LA
+65,"McAllen, TX",TX
+66,"New Haven, CT",CT
+67,"El Paso, TX",TX
+68,"Allentown, PA",PA
+69,"Oxnard, CA",CA
+70,"Columbia, SC",SC
+71,"North Port, FL",FL
+72,"Dayton, OH",OH
+73,"Charleston, SC",SC
+74,"Greensboro, NC",NC
+75,"Stockton, CA",CA
+76,"Cape Coral, FL",FL
+77,"Boise City, ID",ID
+78,"Colorado Springs, CO",CO
+79,"Little Rock, AR",AR
+80,"Lakeland, FL",FL
+81,"Akron, OH",OH
+82,"Des Moines, IA",IA
+83,"Springfield, MA",MA
+84,"Ogden, UT",UT
+85,"Madison, WI",WI
+86,"Winston, NC",NC
+87,"Deltona, FL",FL
+88,"Syracuse, NY",NY
+89,"Provo, UT",UT
+90,"Toledo, OH",OH
+91,"Wichita, KS",KS
+92,"Durham, NC",NC
+93,"Augusta, GA",GA
+94,"Palm Bay, FL",FL
+95,"Jackson, MS",MS
+96,"Harrisburg, PA",PA
+97,"Spokane, WA",WA
+98,"Scranton, PA",PA
+99,"Chattanooga, TN",TN
+100,"Modesto, CA",CA
+101,"Lancaster, PA",PA
+102,"Portland, ME",ME
+103,"Youngstown, OH",OH
+104,"Lansing, MI",MI
+105,"Fayetteville, AR",AR
+106,"Fayetteville, NC",NC
+107,"Lexington, KY",KY
+108,"Pensacola, FL",FL
+109,"Santa Rosa, CA",CA
+110,"Reno, NV",NV
+111,"Huntsville, AL",AL
+112,"Port St. Lucie, FL",FL
+113,"Myrtle Beach, SC",SC
+114,"Springfield, MO",MO
+115,"Visalia, CA",CA
+116,"Killeen, TX",TX
+117,"Asheville, NC",NC
+118,"York, PA",PA
+119,"Vallejo, CA",CA
+120,"Santa Maria, CA",CA
+121,"Salinas, CA",CA
+122,"Salem, OR",OR
+123,"Mobile, AL",AL
+124,"Reading, PA",PA
+125,"Corpus Christi, TX",TX
+126,"Manchester, NH",NH
+127,"Fort Wayne, IN",IN
+128,"Gulfport, MS",MS
+129,"Salisbury, MD",DE
+130,"Flint, MI",MI
+131,"Peoria, IL",IL
+132,"Canton, OH",OH
+133,"Savannah, GA",GA
+134,"Beaumont, TX",TX
+135,"Shreveport, LA",LA
+136,"Trenton, NJ",NJ
+137,"Montgomery, AL",AL
+138,"Davenport, IA",IL
+139,"Tallahassee, FL",FL
+140,"Eugene, OR",OR
+141,"Naples, FL",FL
+142,"Ann Arbor, MI",MI
+143,"Ocala, FL",FL
+144,"Hickory, NC",NC
+145,"Huntington, WV",OH
+146,"Fort Collins, CO",CO
+147,"Rockford, IL",IL
+148,"Lincoln, NE",NE
+149,"Gainesville, FL",FL
+150,"Boulder, CO",CO
+151,"Green Bay, WI",WI
+152,"Columbus, GA",GA
+153,"South Bend, IN",IN
+154,"Spartanburg, SC",SC
+155,"Greeley, CO",CO
+156,"Lubbock, TX",TX
+157,"Clarksville, TN",TN
+158,"Roanoke, VA",VA
+159,"Evansville, IN",IN
+160,"Kingsport, TN",TN
+161,"Kennewick, WA",WA
+162,"Utica, NY",NY
+163,"Hagerstown, MD",MD
+164,"Duluth, MN",MN
+165,"Longview, TX",TX
+166,"Wilmington, NC",NC
+167,"San Luis Obispo, CA",CA
+168,"Crestview, FL",FL
+169,"Merced, CA",CA
+170,"Waco, TX",TX
+171,"Cedar Rapids, IA",IA
+172,"Atlantic City, NJ",NJ
+173,"Bremerton, WA",WA
+174,"Sioux Falls, SD",SD
+175,"Santa Cruz, CA",CA
+176,"Erie, PA",PA
+177,"Norwich, CT",CT
+178,"Amarillo, TX",TX
+179,"Tuscaloosa, AL",AL
+180,"Kalamazoo, MI",MI
+181,"Lynchburg, VA",VA
+182,"Yakima, WA",WA
+183,"Fargo, ND",ND
+184,"Binghamton, NY",NY
+185,"Fort Smith, AR",AR
+186,"Appleton, WI",WI
+187,"Prescott Valley, AZ",AZ
+188,"Macon, GA",GA
+189,"Tyler, TX",TX
+190,"Barnstable Town, MA",MA
+191,"Daphne, AL",AL
+192,"Rochester, MN",MN
+193,"Lafayette, IN",IN
+194,"Champaign, IL",IL
+195,"Medford, OR",OR
+196,"Lebanon, NH",NH
+197,"Charlottesville, VA",VA
+198,"Lake Charles, LA",LA
+199,"Las Cruces, NM",NM
+200,"Chico, CA",CA
+201,"Hilton Head Island, SC",SC
+202,"Athens, GA",GA
+203,"Lake Havasu City, AZ",AZ
+204,"Columbia, MO",MO
+205,"Springfield, IL",IL
+206,"Monroe, LA",LA
+207,"Elkhart, IN",IN
+208,"Johnson City, TN",TN
+209,"Yuma, AZ",AZ
+210,"Gainesville, GA",GA
+211,"Jacksonville, NC",NC
+212,"Florence, SC",SC
+213,"Hilo, HI",HI
+214,"St. Cloud, MN",MN
+215,"Racine, WI",WI
+216,"Bend, OR",OR
+217,"Saginaw, MI",MI
+218,"Warner Robins, GA",GA
+219,"Terre Haute, IN",IN
+220,"Torrington, CT",CT
+221,"Punta Gorda, FL",FL
+222,"Redding, CA",CA
+223,"Kingston, NY",NY
+224,"Panama City, FL",FL
+225,"Dover, DE",DE
+226,"Jackson, TN",TN
+227,"Yuba City, CA",CA
+228,"St. George, UT",UT
+229,"Muskegon, MI",MI
+230,"Abilene, TX",TX
+231,"Iowa City, IA",IA
+232,"Midland, TX",TX
+233,"Bloomington, IL",IL
+234,"Oshkosh, WI",WI
+235,"Eau Claire, WI",WI
+236,"Greenville, NC",NC
+237,"Burlington, NC",NC
+238,"East Stroudsburg, PA",PA
+239,"Pueblo, CO",CO
+240,"Wausau, WI",WI
+241,"Kahului, HI",HI
+242,"Janesville, WI",WI
+243,"Bloomington, IN",IN
+244,"Jackson, MI",MI
+245,"State College, PA",PA
+246,"Sebastian, FL",FL
+247,"Madera, CA",CA
+248,"Chambersburg, PA",PA
+249,"Vineland, NJ",NJ
+250,"Idaho Falls, ID",ID
+251,"Grand Junction, CO",CO
+252,"Elizabethtown, KY",KY
+253,"Niles, MI",MI
+254,"Monroe, MI",MI
+255,"Concord, NH",NH
+256,"Alexandria, LA",LA
+257,"Traverse City, MI",MI
+258,"Bangor, ME",ME
+259,"Homosassa Springs, FL",FL
+260,"Hanford, CA",CA
+261,"Jefferson City, MO",MO
+262,"Florence, AL",AL
+263,"Dothan, AL",AL
+264,"Albany, GA",GA
+265,"Ottawa, IL",IL
+266,"Valdosta, GA",GA
+267,"Logan, UT",UT
+268,"Flagstaff, AZ",AZ
+269,"Rocky Mount, NC",NC
+270,"Pottsville, PA",PA
+271,"Dalton, GA",GA
+272,"Lebanon, PA",PA
+273,"Morristown, TN",TN
+274,"Winchester, VA",VA
+275,"Wheeling, WV",OH
+276,"Morgantown, WV",WV
+277,"La Crosse, WI",WI
+278,"Napa, CA",CA
+279,"Rapid City, SD",SD
+280,"Sumter, SC",SC
+281,"Eureka, CA",CA
+282,"Springfield, OH",OH
+283,"Battle Creek, MI",MI
+284,"Sherman, TX",TX
+285,"Carbondale, IL",IL
+286,"Jonesboro, AR",AR
+287,"Bismarck, ND",ND
+288,"Hammond, LA",LA
+289,"Pittsfield, MA",MA
+290,"Mount Vernon, WA",WA
+291,"Jamestown, NY",NY
+292,"The Villages, FL",FL
+293,"Albany, OR",OR
+294,"Lawton, OK",OK
+295,"Cleveland, TN",TN
+296,"Sierra Vista, AZ",AZ
+297,"Mansfield, OH",OH
+298,"Staunton, VA",VA
+299,"Augusta, ME",ME
+300,"Altoona, PA",PA
+301,"New Bern, NC",NC
+302,"Farmington, NM",NM
+303,"St. Joseph, MO",MO
+304,"Holland, MI",MI
+305,"Goldsboro, NC",NC
+306,"Watertown, NY",NY
+307,"Sheboygan, WI",WI
+308,"Weirton, WV",OH
+309,"Missoula, MT",MT
+310,"Anniston, AL",AL
+311,"Brunswick, GA",GA
+312,"California, MD",MD
+313,"Twin Falls, ID",ID
+314,"Cookeville, TN",TN
+315,"Muncie, IN",IN
+316,"Michigan City, IN",IN
+317,"Roseburg, OR",OR
+318,"Lewiston, ME",ME
+319,"Longview, WA",WA
+320,"Kankakee, IL",IL
+321,"Show Low, AZ",AZ
+322,"Richmond, KY",KY
+323,"Tullahoma, TN",TN
+324,"Whitewater, WI",WI
+325,"Grand Forks, ND",MN
+326,"Decatur, IL",IL
+327,"LaGrange, GA",GA
+328,"Bay City, MI",MI
+329,"Fond du Lac, WI",WI
+330,"Gettysburg, PA",PA
+331,"Kalispell, MT",MT
+332,"Mankato, MN",MN
+333,"Lima, OH",OH
+334,"Salem, OH",OH
+335,"Truckee, CA",CA
+336,"Sebring, FL",FL
+337,"Cheyenne, WY",WY
+338,"Hot Springs, AR",AR
+339,"Adrian, MI",MI
+340,"Shelby, NC",NC
+341,"Dubuque, IA",IA
+342,"Pinehurst, NC",NC
+343,"Paducah, KY",KY
+344,"Victoria, TX",TX
+345,"Rome, GA",GA
+346,"Sevierville, TN",TN
+347,"Ashtabula, OH",OH
+348,"Cape Girardeau, MO",MO
+349,"Albertville, AL",AL
+350,"Brainerd, MN",MN
+351,"Cumberland, MD",MD
+352,"Ocean City, NJ",NJ
+353,"Corvallis, OR",OR
+354,"Corning, NY",NY
+355,"New Philadelphia, OH",OH
+356,"Sunbury, PA",PA
+357,"Ukiah, CA",CA
+358,"Hermiston, OR",OR
+359,"Parkersburg, WV",WV
+360,"Beaver Dam, WI",WI
+361,"Pine Bluff, AR",AR
+362,"Grants Pass, OR",OR
+363,"Zanesville, OH",OH
+364,"New Castle, PA",PA
+365,"Watertown, WI",WI
+366,"Great Falls, MT",MT
+367,"Indiana, PA",PA
+368,"Midland, MI",MI
+369,"Kokomo, IN",IN
+370,"Helena, MT",MT
+371,"Key West, FL",FL
+372,"Stillwater, OK",OK
+373,"Columbus, IN",IN
+374,"Athens, TX",TX
+375,"Centralia, WA",WA
+376,"Manitowoc, WI",WI
+377,"Hinesville, GA",GA
+378,"Warsaw, IN",IN
+379,"Plattsburgh, NY",NY
+380,"Statesboro, GA",GA
+381,"Casper, WY",WY
+382,"Wilson, NC",NC
+383,"Glenwood Springs, CO",CO
+384,"Seneca, SC",SC
+385,"Olean, NY",NY
+386,"Searcy, AR",AR
+387,"Port Angeles, WA",WA
+388,"Auburn, NY",NY
+389,"Keene, NH",NH
+390,"Heber, UT",UT
+391,"Quincy, IL",IL
+392,"Sandusky, OH",OH
+393,"Frankfort, KY",KY
+394,"Danville, IL",IL
+395,"Somerset, PA",PA
+396,"Jefferson, GA",GA
+397,"Kapaa, HI",HI
+398,"Palatka, FL",FL
+399,"Shawnee, OK",OK
+400,"Mount Airy, NC",NC
+401,"Greeneville, TN",TN
+402,"Greenwood, SC",SC
+403,"Klamath Falls, OR",OR
+404,"Morehead City, NC",NC
+405,"Clearlake, CA",CA
+406,"Farmington, MO",MO
+407,"Muskogee, OK",OK
+408,"Marion, IN",IN
+409,"Faribault, MN",MN
+410,"North Wilkesboro, NC",NC
+411,"Mount Pleasant, MI",MI
+412,"Baraboo, WI",WI
+413,"Red Bluff, CA",CA
+414,"Marinette, WI",WI
+415,"Roswell, NM",NM
+416,"Somerset, KY",KY
+417,"Coos Bay, OR",OR
+418,"Forest City, NC",NC
+419,"Lewiston, ID",ID
+420,"Laconia, NH",NH
+421,"Georgetown, SC",SC
+422,"Sanford, NC",NC
+423,"Mount Vernon, OH",OH
+424,"Albemarle, NC",NC
+425,"Sturgis, MI",MI
+426,"Crossville, TN",TN
+427,"Fergus Falls, MN",MN
+428,"Charleston, IL",IL
+429,"Fernley, NV",NV
+430,"Carson City, NV",NV
+431,"Calhoun, GA",GA
+432,"Cullowhee, NC",NC
+433,"Ontario, OR",OR
+434,"Sterling, IL",IL
+435,"Branson, MO",MO
+436,"Edwards, CO",CO
+437,"Durango, CO",CO
+438,"Sonora, CA",CA
+439,"Danville, KY",KY
+440,"St. Marys, GA",GA
+441,"Boone, NC",NC
+442,"Warrensburg, MO",MO
+443,"Elizabeth City, NC",NC
+444,"Payson, AZ",AZ
+445,"Kerrville, TX",TX
+446,"Bartlesville, OK",OK
+447,"Rochelle, IL",IL
+448,"Galesburg, IL",IL
+449,"Pahrump, NV",NV
+450,"Newport, OR",OR
+451,"Shelbyville, TN",TN
+452,"Gardnerville Ranchos, NV",NV
+453,"Ca-¦on City, CO",CO
+454,"Clovis, NM",NM
+455,"Cadillac, MI",MI
+456,"Montrose, CO",CO
+457,"Clinton, IA",IA
+458,"Bardstown, KY",KY
+459,"Bellefontaine, OH",OH
+460,"Hillsdale, MI",MI
+461,"Paragould, AR",AR
+462,"Ellensburg, WA",WA
+463,"Lawrenceburg, TN",TN
+464,"Willmar, MN",MN
+465,"Auburn, IN",IN
+466,"McMinnville, TN",TN
+467,"Astoria, OR",OR
+468,"Big Rapids, MI",MI
+469,"Austin, MN",MN
+470,"Easton, MD",MD
+471,"Kill Devil Hills, NC",NC
+472,"Brevard, NC",NC
+473,"Breckenridge, CO",CO
+474,"Steamboat Springs, CO",CO

@@ -47,8 +47,8 @@ def fill_zero_with_avg(df):
 # Converts all columns to numeric 
 def convert_to_numeric(df, start_index = 2):
     for column in df.columns[start_index:]:
-        df[column] = df[column].str.replace(",", "")
-        df[column] = df[column].str.replace(".", "")
+        # df[column] = df[column].str.replace(",", "")
+        # df[column] = df[column].str.replace(".", "")
         df[column] = pd.to_numeric(df[column])
     return df
 
