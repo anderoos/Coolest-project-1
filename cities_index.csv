@@ -1,0 +1,378 @@
+RegionName,StateName
+"New York, NY",NY
+"Los Angeles, CA",CA
+"Chicago, IL",IL
+"Dallas, TX",TX
+"Houston, TX",TX
+"Washington, DC",VA
+"Philadelphia, PA",PA
+"Miami, FL",FL
+"Atlanta, GA",GA
+"Boston, MA",MA
+"Phoenix, AZ",AZ
+"San Francisco, CA",CA
+"Riverside, CA",CA
+"Detroit, MI",MI
+"Seattle, WA",WA
+"Minneapolis, MN",MN
+"San Diego, CA",CA
+"Tampa, FL",FL
+"Denver, CO",CO
+"Baltimore, MD",MD
+"St. Louis, MO",MO
+"Orlando, FL",FL
+"Charlotte, NC",NC
+"San Antonio, TX",TX
+"Portland, OR",OR
+"Sacramento, CA",CA
+"Pittsburgh, PA",PA
+"Cincinnati, OH",OH
+"Austin, TX",TX
+"Las Vegas, NV",NV
+"Kansas City, MO",MO
+"Columbus, OH",OH
+"Indianapolis, IN",IN
+"Cleveland, OH",OH
+"San Jose, CA",CA
+"Nashville, TN",TN
+"Virginia Beach, VA",VA
+"Providence, RI",RI
+"Jacksonville, FL",FL
+"Milwaukee, WI",WI
+"Oklahoma City, OK",OK
+"Raleigh, NC",NC
+"Memphis, TN",TN
+"Richmond, VA",VA
+"Louisville, KY",KY
+"New Orleans, LA",LA
+"Salt Lake City, UT",UT
+"Hartford, CT",CT
+"Buffalo, NY",NY
+"Birmingham, AL",AL
+"Rochester, NY",NY
+"Grand Rapids, MI",MI
+"Tucson, AZ",AZ
+"Urban Honolulu, HI",HI
+"Tulsa, OK",OK
+"Fresno, CA",CA
+"Worcester, MA",MA
+"Omaha, NE",NE
+"Bridgeport, CT",CT
+"Greenville, SC",SC
+"Albuquerque, NM",NM
+"Bakersfield, CA",CA
+"Albany, NY",NY
+"Knoxville, TN",TN
+"Baton Rouge, LA",LA
+"New Haven, CT",CT
+"El Paso, TX",TX
+"Allentown, PA",PA
+"Oxnard, CA",CA
+"Columbia, SC",SC
+"North Port, FL",FL
+"Dayton, OH",OH
+"Charleston, SC",SC
+"Greensboro, NC",NC
+"Stockton, CA",CA
+"Cape Coral, FL",FL
+"Boise City, ID",ID
+"Colorado Springs, CO",CO
+"Little Rock, AR",AR
+"Lakeland, FL",FL
+"Akron, OH",OH
+"Des Moines, IA",IA
+"Springfield, MA",MA
+"Ogden, UT",UT
+"Madison, WI",WI
+"Winston, NC",NC
+"Deltona, FL",FL
+"Syracuse, NY",NY
+"Provo, UT",UT
+"Toledo, OH",OH
+"Wichita, KS",KS
+"Durham, NC",NC
+"Augusta, GA",GA
+"Palm Bay, FL",FL
+"Jackson, MS",MS
+"Harrisburg, PA",PA
+"Spokane, WA",WA
+"Scranton, PA",PA
+"Chattanooga, TN",TN
+"Modesto, CA",CA
+"Lancaster, PA",PA
+"Portland, ME",ME
+"Youngstown, OH",OH
+"Lansing, MI",MI
+"Fayetteville, AR",AR
+"Fayetteville, NC",NC
+"Lexington, KY",KY
+"Pensacola, FL",FL
+"Santa Rosa, CA",CA
+"Reno, NV",NV
+"Huntsville, AL",AL
+"Port St. Lucie, FL",FL
+"Myrtle Beach, SC",SC
+"Springfield, MO",MO
+"Visalia, CA",CA
+"Killeen, TX",TX
+"Asheville, NC",NC
+"York, PA",PA
+"Vallejo, CA",CA
+"Santa Maria, CA",CA
+"Salinas, CA",CA
+"Salem, OR",OR
+"Mobile, AL",AL
+"Reading, PA",PA
+"Corpus Christi, TX",TX
+"Manchester, NH",NH
+"Fort Wayne, IN",IN
+"Gulfport, MS",MS
+"Salisbury, MD",DE
+"Flint, MI",MI
+"Peoria, IL",IL
+"Canton, OH",OH
+"Savannah, GA",GA
+"Shreveport, LA",LA
+"Trenton, NJ",NJ
+"Montgomery, AL",AL
+"Davenport, IA",IL
+"Tallahassee, FL",FL
+"Eugene, OR",OR
+"Naples, FL",FL
+"Ann Arbor, MI",MI
+"Ocala, FL",FL
+"Hickory, NC",NC
+"Huntington, WV",OH
+"Fort Collins, CO",CO
+"Rockford, IL",IL
+"Lincoln, NE",NE
+"Gainesville, FL",FL
+"Boulder, CO",CO
+"Green Bay, WI",WI
+"Columbus, GA",GA
+"South Bend, IN",IN
+"Spartanburg, SC",SC
+"Greeley, CO",CO
+"Lubbock, TX",TX
+"Clarksville, TN",TN
+"Roanoke, VA",VA
+"Evansville, IN",IN
+"Kingsport, TN",TN
+"Kennewick, WA",WA
+"Utica, NY",NY
+"Hagerstown, MD",MD
+"Duluth, MN",MN
+"Wilmington, NC",NC
+"San Luis Obispo, CA",CA
+"Crestview, FL",FL
+"Merced, CA",CA
+"Cedar Rapids, IA",IA
+"Atlantic City, NJ",NJ
+"Bremerton, WA",WA
+"Santa Cruz, CA",CA
+"Erie, PA",PA
+"Norwich, CT",CT
+"Amarillo, TX",TX
+"Tuscaloosa, AL",AL
+"Kalamazoo, MI",MI
+"Lynchburg, VA",VA
+"Yakima, WA",WA
+"Fargo, ND",ND
+"Binghamton, NY",NY
+"Fort Smith, AR",AR
+"Appleton, WI",WI
+"Prescott Valley, AZ",AZ
+"Macon, GA",GA
+"Barnstable Town, MA",MA
+"Daphne, AL",AL
+"Rochester, MN",MN
+"Lafayette, IN",IN
+"Champaign, IL",IL
+"Medford, OR",OR
+"Lebanon, NH",NH
+"Charlottesville, VA",VA
+"Lake Charles, LA",LA
+"Chico, CA",CA
+"Hilton Head Island, SC",SC
+"Athens, GA",GA
+"Lake Havasu City, AZ",AZ
+"Columbia, MO",MO
+"Springfield, IL",IL
+"Monroe, LA",LA
+"Elkhart, IN",IN
+"Johnson City, TN",TN
+"Yuma, AZ",AZ
+"Gainesville, GA",GA
+"Jacksonville, NC",NC
+"Florence, SC",SC
+"Hilo, HI",HI
+"St. Cloud, MN",MN
+"Racine, WI",WI
+"Bend, OR",OR
+"Saginaw, MI",MI
+"Warner Robins, GA",GA
+"Torrington, CT",CT
+"Punta Gorda, FL",FL
+"Redding, CA",CA
+"Kingston, NY",NY
+"Panama City, FL",FL
+"Dover, DE",DE
+"Jackson, TN",TN
+"Yuba City, CA",CA
+"St. George, UT",UT
+"Muskegon, MI",MI
+"Abilene, TX",TX
+"Iowa City, IA",IA
+"Midland, TX",TX
+"Bloomington, IL",IL
+"Oshkosh, WI",WI
+"Eau Claire, WI",WI
+"Greenville, NC",NC
+"Burlington, NC",NC
+"East Stroudsburg, PA",PA
+"Pueblo, CO",CO
+"Wausau, WI",WI
+"Kahului, HI",HI
+"Janesville, WI",WI
+"Bloomington, IN",IN
+"Jackson, MI",MI
+"State College, PA",PA
+"Sebastian, FL",FL
+"Madera, CA",CA
+"Chambersburg, PA",PA
+"Vineland, NJ",NJ
+"Idaho Falls, ID",ID
+"Grand Junction, CO",CO
+"Elizabethtown, KY",KY
+"Niles, MI",MI
+"Monroe, MI",MI
+"Concord, NH",NH
+"Alexandria, LA",LA
+"Traverse City, MI",MI
+"Bangor, ME",ME
+"Homosassa Springs, FL",FL
+"Hanford, CA",CA
+"Jefferson City, MO",MO
+"Florence, AL",AL
+"Dothan, AL",AL
+"Albany, GA",GA
+"Ottawa, IL",IL
+"Valdosta, GA",GA
+"Logan, UT",UT
+"Flagstaff, AZ",AZ
+"Rocky Mount, NC",NC
+"Pottsville, PA",PA
+"Dalton, GA",GA
+"Lebanon, PA",PA
+"Morristown, TN",TN
+"Winchester, VA",VA
+"Wheeling, WV",OH
+"La Crosse, WI",WI
+"Napa, CA",CA
+"Sumter, SC",SC
+"Eureka, CA",CA
+"Battle Creek, MI",MI
+"Sherman, TX",TX
+"Jonesboro, AR",AR
+"Bismarck, ND",ND
+"Hammond, LA",LA
+"Pittsfield, MA",MA
+"Mount Vernon, WA",WA
+"Jamestown, NY",NY
+"The Villages, FL",FL
+"Albany, OR",OR
+"Lawton, OK",OK
+"Cleveland, TN",TN
+"Sierra Vista, AZ",AZ
+"Staunton, VA",VA
+"Augusta, ME",ME
+"Altoona, PA",PA
+"New Bern, NC",NC
+"Farmington, NM",NM
+"St. Joseph, MO",MO
+"Holland, MI",MI
+"Goldsboro, NC",NC
+"Watertown, NY",NY
+"Sheboygan, WI",WI
+"Weirton, WV",OH
+"Missoula, MT",MT
+"Anniston, AL",AL
+"Brunswick, GA",GA
+"California, MD",MD
+"Twin Falls, ID",ID
+"Cookeville, TN",TN
+"Muncie, IN",IN
+"Michigan City, IN",IN
+"Roseburg, OR",OR
+"Longview, WA",WA
+"Kankakee, IL",IL
+"Richmond, KY",KY
+"Tullahoma, TN",TN
+"Whitewater, WI",WI
+"Grand Forks, ND",MN
+"Decatur, IL",IL
+"LaGrange, GA",GA
+"Bay City, MI",MI
+"Fond du Lac, WI",WI
+"Gettysburg, PA",PA
+"Kalispell, MT",MT
+"Mankato, MN",MN
+"Salem, OH",OH
+"Truckee, CA",CA
+"Sebring, FL",FL
+"Cheyenne, WY",WY
+"Hot Springs, AR",AR
+"Shelby, NC",NC
+"Pinehurst, NC",NC
+"Paducah, KY",KY
+"Victoria, TX",TX
+"Rome, GA",GA
+"Sevierville, TN",TN
+"Albertville, AL",AL
+"Brainerd, MN",MN
+"Cumberland, MD",MD
+"Ocean City, NJ",NJ
+"Corvallis, OR",OR
+"Corning, NY",NY
+"Sunbury, PA",PA
+"Parkersburg, WV",WV
+"Beaver Dam, WI",WI
+"Grants Pass, OR",OR
+"New Castle, PA",PA
+"Watertown, WI",WI
+"Great Falls, MT",MT
+"Midland, MI",MI
+"Kokomo, IN",IN
+"Helena, MT",MT
+"Key West, FL",FL
+"Columbus, IN",IN
+"Manitowoc, WI",WI
+"Plattsburgh, NY",NY
+"Casper, WY",WY
+"Glenwood Springs, CO",CO
+"Seneca, SC",SC
+"Olean, NY",NY
+"Searcy, AR",AR
+"Port Angeles, WA",WA
+"Heber, UT",UT
+"Quincy, IL",IL
+"Frankfort, KY",KY
+"Danville, IL",IL
+"Jefferson, GA",GA
+"Shawnee, OK",OK
+"Greeneville, TN",TN
+"Morehead City, NC",NC
+"Clearlake, CA",CA
+"Farmington, MO",MO
+"Baraboo, WI",WI
+"Laconia, NH",NH
+"Georgetown, SC",SC
+"Crossville, TN",TN
+"Charleston, IL",IL
+"Sterling, IL",IL
+"Branson, MO",MO
+"Boone, NC",NC
+"Bartlesville, OK",OK
+"Bardstown, KY",KY
+"McMinnville, TN",TN
+"Kill Devil Hills, NC",NC
