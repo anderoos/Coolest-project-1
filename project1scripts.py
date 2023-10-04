@@ -3,6 +3,7 @@
 # Indended to be used for Project 1 only
 import numpy as np
 import pandas as pd
+import seaborn as sns
 
 # Author: anderoos
 # This script is meant to break up Zillow Data from the continental US into five distinct regions
@@ -59,3 +60,22 @@ def get_state_data(df, state='NY'):
     # Filters state codes into separate dataframes
     sub_frame = df[df['StateName'].isin(state)]
     return subframe
+
+# Author: anderoos
+# Grab specific dates
+# Can only be used after a table has been transposed and properly converted to datetime using pd.to_datetime
+# Accepts year as a list and months as a list
+def get_specific_dates(df, year, month=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]):
+    filtered_df = df.loc[(df.index.year.isin(year))]
+    filtered_df = filtered_df.loc[filtered_df.index.month.isin(month)]
+    return filtered_df
+    
+# Author: anderoos
+# Grab specific date ranges
+# Can only be used after a table has been transposed and properly converted to datetime using pd.to_datetime
+def get_specific_date_range(df, datestart, dateend):
+    filtered_df = df[(df.index >= datestart) & (df.index <= dateend)]
+    return filtered_df
+
+    
+    
