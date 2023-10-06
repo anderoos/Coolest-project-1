@@ -1,0 +1,464 @@
+[1mdiff --git a/(2) PSam - Moving_Avg_by_State.ipynb b/(2) PSam - Moving_Avg_by_State.ipynb[m
+[1mindex 43fdbc0..72a04d3 100644[m
+[1m--- a/(2) PSam - Moving_Avg_by_State.ipynb[m	
+[1m+++ b/(2) PSam - Moving_Avg_by_State.ipynb[m	
+[36m@@ -2,7 +2,7 @@[m
+  "cells": [[m
+   {[m
+    "cell_type": "markdown",[m
+[31m-   "id": "05dccfd8",[m
+[32m+[m[32m   "id": "f4df8299",[m
+    "metadata": {},[m
+    "source": [[m
+     "#  Exploratory Analysis on which cities has the most volatile markets\n",[m
+[36m@@ -11,8 +11,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 30,[m
+[31m-   "id": "ac973027",[m
+[32m+[m[32m   "execution_count": 1,[m
+[32m+[m[32m   "id": "cb7e51b7",[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -26,8 +26,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 31,[m
+[31m-   "id": "40451fa2",[m
+[32m+[m[32m   "execution_count": 2,[m
+[32m+[m[32m   "id": "58312dae",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -45,8 +45,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 32,[m
+[31m-   "id": "98b02712",[m
+[32m+[m[32m   "execution_count": 3,[m
+[32m+[m[32m   "id": "10e660a5",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -251,7 +251,7 @@[m
+        "[5 rows x 129 columns]"[m
+       ][m
+      },[m
+[31m-     "execution_count": 32,[m
+[32m+[m[32m     "execution_count": 3,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -264,8 +264,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 33,[m
+[31m-   "id": "1bf5d63c",[m
+[32m+[m[32m   "execution_count": 4,[m
+[32m+[m[32m   "id": "8eb83a33",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -506,7 +506,7 @@[m
+        "[5 rows x 127 columns]"[m
+       ][m
+      },[m
+[31m-     "execution_count": 33,[m
+[32m+[m[32m     "execution_count": 4,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -520,15 +520,15 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 34,[m
+[31m-   "id": "1e4e30f8",[m
+[32m+[m[32m   "execution_count": 5,[m
+[32m+[m[32m   "id": "7cf4b5cc",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+      "name": "stderr",[m
+      "output_type": "stream",[m
+      "text": [[m
+[31m-      "C:\\Users\\Saman\\AppData\\Local\\Temp\\ipykernel_41640\\3669584775.py:2: FutureWarning: Support for axis=1 in DataFrame.rolling is deprecated and will be removed in a future version. Use obj.T.rolling(...) instead\n",[m
+[32m+[m[32m      "C:\\Users\\Saman\\AppData\\Local\\Temp\\ipykernel_36132\\3669584775.py:2: FutureWarning: Support for axis=1 in DataFrame.rolling is deprecated and will be removed in a future version. Use obj.T.rolling(...) instead\n",[m
+       "  moving_avg_by_states_df = df_states_gb.rolling(window=12, axis=1, min_periods=1).mean()\n"[m
+      ][m
+     },[m
+[36m@@ -770,7 +770,7 @@[m
+        "[5 rows x 127 columns]"[m
+       ][m
+      },[m
+[31m-     "execution_count": 34,[m
+[32m+[m[32m     "execution_count": 5,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -784,8 +784,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 35,[m
+[31m-   "id": "c2f4f2ba",[m
+[32m+[m[32m   "execution_count": 6,[m
+[32m+[m[32m   "id": "55094fab",[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [[m
+[36m@@ -809,8 +809,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 28,[m
+[31m-   "id": "fffefd37",[m
+[32m+[m[32m   "execution_count": 7,[m
+[32m+[m[32m   "id": "8872bc65",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -847,8 +847,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 23,[m
+[31m-   "id": "893d553e",[m
+[32m+[m[32m   "execution_count": 8,[m
+[32m+[m[32m   "id": "65a3c70e",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -857,7 +857,7 @@[m
+        "['NV', 'ID', 'UT', 'WV', 'IL', 'LA']"[m
+       ][m
+      },[m
+[31m-     "execution_count": 23,[m
+[32m+[m[32m     "execution_count": 8,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -880,8 +880,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 29,[m
+[31m-   "id": "48d92854",[m
+[32m+[m[32m   "execution_count": 9,[m
+[32m+[m[32m   "id": "bf9a536b",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -920,55 +920,55 @@[m
+        "    <tr>\n",[m
+        "      <th>ID</th>\n",[m
+        "      <td>0.098638</td>\n",[m
+[31m-       "      <td>1.364988e+07</td>\n",[m
+[31m-       "      <td>3.694066e+07</td>\n",[m
+[32m+[m[32m       "      <td>136498.750000</td>\n",[m
+[32m+[m[32m       "      <td>369406.583333</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+        "      <th>IL</th>\n",[m
+        "      <td>0.035631</td>\n",[m
+[31m-       "      <td>1.023088e+07</td>\n",[m
+[31m-       "      <td>1.481950e+07</td>\n",[m
+[32m+[m[32m       "      <td>102308.823529</td>\n",[m
+[32m+[m[32m       "      <td>148194.970588</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+        "      <th>LA</th>\n",[m
+        "      <td>0.037988</td>\n",[m
+[31m-       "      <td>1.458167e+07</td>\n",[m
+[31m-       "      <td>2.163593e+07</td>\n",[m
+[32m+[m[32m       "      <td>145816.714286</td>\n",[m
+[32m+[m[32m       "      <td>216359.285714</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+        "      <th>NV</th>\n",[m
+        "      <td>0.108118</td>\n",[m
+[31m-       "      <td>1.502738e+07</td>\n",[m
+[31m-       "      <td>4.454011e+07</td>\n",[m
+[32m+[m[32m       "      <td>150273.833333</td>\n",[m
+[32m+[m[32m       "      <td>445401.111111</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+        "      <th>UT</th>\n",[m
+        "      <td>0.097170</td>\n",[m
+[31m-       "      <td>2.119248e+07</td>\n",[m
+[31m-       "      <td>5.654742e+07</td>\n",[m
+[32m+[m[32m       "      <td>211924.833333</td>\n",[m
+[32m+[m[32m       "      <td>565474.152778</td>\n",[m
+        "    </tr>\n",[m
+        "    <tr>\n",[m
+        "      <th>WV</th>\n",[m
+        "      <td>0.028345</td>\n",[m
+[31m-       "      <td>1.408305e+07</td>\n",[m
+[31m-       "      <td>1.893075e+07</td>\n",[m
+[32m+[m[32m       "      <td>140830.500000</td>\n",[m
+[32m+[m[32m       "      <td>189307.500000</td>\n",[m
+        "    </tr>\n",[m
+        "  </tbody>\n",[m
+        "</table>\n",[m
+        "</div>"[m
+       ],[m
+       "text/plain": [[m
+[31m-       "           Growth Rate     1/31/2013     7/31/2023\n",[m
+[31m-       "StateName                                         \n",[m
+[31m-       "ID            0.098638  1.364988e+07  3.694066e+07\n",[m
+[31m-       "IL            0.035631  1.023088e+07  1.481950e+07\n",[m
+[31m-       "LA            0.037988  1.458167e+07  2.163593e+07\n",[m
+[31m-       "NV            0.108118  1.502738e+07  4.454011e+07\n",[m
+[31m-       "UT            0.097170  2.119248e+07  5.654742e+07\n",[m
+[31m-       "WV            0.028345  1.408305e+07  1.893075e+07"[m
+[32m+[m[32m       "           Growth Rate      1/31/2013      7/31/2023\n",[m
+[32m+[m[32m       "StateName                                           \n",[m
+[32m+[m[32m       "ID            0.098638  136498.750000  369406.583333\n",[m
+[32m+[m[32m       "IL            0.035631  102308.823529  148194.970588\n",[m
+[32m+[m[32m       "LA            0.037988  145816.714286  216359.285714\n",[m
+[32m+[m[32m       "NV            0.108118  150273.833333  445401.111111\n",[m
+[32m+[m[32m       "UT            0.097170  211924.833333  565474.152778\n",[m
+[32m+[m[32m       "WV            0.028345  140830.500000  189307.500000"[m
+       ][m
+      },[m
+[31m-     "execution_count": 29,[m
+[32m+[m[32m     "execution_count": 9,[m
+      "metadata": {},[m
+      "output_type": "execute_result"[m
+     }[m
+[36m@@ -982,8 +982,8 @@[m
+   },[m
+   {[m
+    "cell_type": "code",[m
+[31m-   "execution_count": 27,[m
+[31m-   "id": "58ea6c6e",[m
+[32m+[m[32m   "execution_count": 10,[m
+[32m+[m[32m   "id": "319e3065",[m
+    "metadata": {},[m
+    "outputs": [[m
+     {[m
+[36m@@ -1031,10 +1031,218 @@[m
+     "plt.show()"[m
+    ][m
+   },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 11,[m
+[32m+[m[32m   "id": "e5c4ca50",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>Growth Rate</th>\n",[m
+[32m+[m[32m       "      <th>1/31/2013</th>\n",[m
+[32m+[m[32m       "      <th>7/31/2023</th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>StateName</th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </thead>\n",[m
+[32m+[m[32m       "  <tbody>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>NV</th>\n",[m
+[32m+[m[32m       "      <td>10.81%</td>\n",[m
+[32m+[m[32m       "      <td>150273.833333</td>\n",[m
+[32m+[m[32m       "      <td>445401.111111</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>ID</th>\n",[m
+[32m+[m[32m       "      <td>9.86%</td>\n",[m
+[32m+[m[32m       "      <td>136498.750000</td>\n",[m
+[32m+[m[32m       "      <td>369406.583333</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>UT</th>\n",[m
+[32m+[m[32m       "      <td>9.72%</td>\n",[m
+[32m+[m[32m       "      <td>211924.833333</td>\n",[m
+[32m+[m[32m       "      <td>565474.152778</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>FL</th>\n",[m
+[32m+[m[32m       "      <td>9.20%</td>\n",[m
+[32m+[m[32m       "      <td>143926.375000</td>\n",[m
+[32m+[m[32m       "      <td>365143.177083</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>MT</th>\n",[m
+[32m+[m[32m       "      <td>9.07%</td>\n",[m
+[32m+[m[32m       "      <td>180216.500000</td>\n",[m
+[32m+[m[32m       "      <td>451812.541667</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </tbody>\n",[m
+[32m+[m[32m       "</table>\n",[m
+[32m+[m[32m       "</div>"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "          Growth Rate      1/31/2013      7/31/2023\n",[m
+[32m+[m[32m       "StateName                                          \n",[m
+[32m+[m[32m       "NV             10.81%  150273.833333  445401.111111\n",[m
+[32m+[m[32m       "ID              9.86%  136498.750000  369406.583333\n",[m
+[32m+[m[32m       "UT              9.72%  211924.833333  565474.152778\n",[m
+[32m+[m[32m       "FL              9.20%  143926.375000  365143.177083\n",[m
+[32m+[m[32m       "MT              9.07%  180216.500000  451812.541667"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 11,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "state_results_df = top_bottom_states_combined\n",[m
+[32m+[m[32m    "state_results_df = state_results_df.sort_values(by=\"Growth Rate\", ascending=False)\n",[m
+[32m+[m[32m    "state_results_df['Growth Rate'] = state_results_df['Growth Rate'].map('{:.2%}'.format)\n",[m
+[32m+[m[32m    "state_results_df.head()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 14,[m
+[32m+[m[32m   "id": "553f5e53",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>Growth Rate</th>\n",[m
+[32m+[m[32m       "      <th>1/31/2013</th>\n",[m
+[32m+[m[32m       "      <th>7/31/2023</th>\n",[m
+[32m+[m[32m       "      <th>Change</th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>StateName</th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </thead>\n",[m
+[32m+[m[32m       "  <tbody>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>NJ</th>\n",[m
+[32m+[m[32m       "      <td>4.13%</td>\n",[m
+[32m+[m[32m       "      <td>225,042</td>\n",[m
+[32m+[m[32m       "      <td>345,524</td>\n",[m
+[32m+[m[32m       "      <td>120,482</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>CT</th>\n",[m
+[32m+[m[32m       "      <td>4.04%</td>\n",[m
+[32m+[m[32m       "      <td>230,396</td>\n",[m
+[32m+[m[32m       "      <td>350,504</td>\n",[m
+[32m+[m[32m       "      <td>120,108</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>LA</th>\n",[m
+[32m+[m[32m       "      <td>3.80%</td>\n",[m
+[32m+[m[32m       "      <td>145,817</td>\n",[m
+[32m+[m[32m       "      <td>216,359</td>\n",[m
+[32m+[m[32m       "      <td>70,542</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>IL</th>\n",[m
+[32m+[m[32m       "      <td>3.56%</td>\n",[m
+[32m+[m[32m       "      <td>102,309</td>\n",[m
+[32m+[m[32m       "      <td>148,195</td>\n",[m
+[32m+[m[32m       "      <td>45,886</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <th>WV</th>\n",[m
+[32m+[m[32m       "      <td>2.83%</td>\n",[m
+[32m+[m[32m       "      <td>140,830</td>\n",[m
+[32m+[m[32m       "      <td>189,308</td>\n",[m
+[32m+[m[32m       "      <td>48,478</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </tbody>\n",[m
+[32m+[m[32m       "</table>\n",[m
+[32m+[m[32m       "</div>"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "          Growth Rate  1/31/2013  7/31/2023  Change\n",[m
+[32m+[m[32m       "StateName                                          \n",[m
+[32m+[m[32m       "NJ              4.13%    225,042    345,524 120,482\n",[m
+[32m+[m[32m       "CT              4.04%    230,396    350,504 120,108\n",[m
+[32m+[m[32m       "LA              3.80%    145,817    216,359  70,542\n",[m
+[32m+[m[32m       "IL              3.56%    102,309    148,195  45,886\n",[m
+[32m+[m[32m       "WV              2.83%    140,830    189,308  48,478"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 14,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "pd.options.display.float_format = '{:,.0f}'.format\n",[m
+[32m+[m[32m    "state_results_df['1/31/2013'] = state_results_df['1/31/2013'].round().astype(float)\n",[m
+[32m+[m[32m    "state_results_df['7/31/2023'] = state_results_df['7/31/2023'].round().astype(float)\n",[m
+[32m+[m[32m    "state_results_df[\"Change\"] = state_results_df['7/31/2023'] - state_results_df['1/31/2013']\n",[m
+[32m+[m[32m    "state_results_df.tail()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 17,[m
+[32m+[m[32m   "id": "8117d8fa",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "state_results_df.to_csv(\"By State Changes.csv\")"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+   {[m
+    "cell_type": "code",[m
+    "execution_count": null,[m
+[31m-   "id": "e7f1f952",[m
+[32m+[m[32m   "id": "9c194726",[m
+    "metadata": {},[m
+    "outputs": [],[m
+    "source": [][m
