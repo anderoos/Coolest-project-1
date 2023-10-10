@@ -36,7 +36,7 @@ We analyzed a decade of median home sale prices from Zillow (2013-2023) to exami
     ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/variabity_top_bottom.png)
 
 * Price of homes in smaller metro areas experience higher volatility in prices and are more unpredictable.
-* 
+  
     ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/SummaryStatiscs/Bottom5.png)
     ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/variabity_top_bottom.png)
   
