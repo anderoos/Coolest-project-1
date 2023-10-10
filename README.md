@@ -1,42 +1,62 @@
-# Group 1 Project Proposal
-## Property Investment Opportunities in 2025 
+# Property Investment Opportunities in 2025
+###### Authors: Andrew Cheng, Paul Samaniego, Riya Gajjar , Madeline Cruz
+[Link to presentation](https://docs.google.com/presentation/d/1hGc5EfDDzNYhX1ClyUOcX7RNmIBS32VOmX1wYN52QlA/edit#slide=id.g28a3fdb79a2_0_20)
 
-## Description
+## Abstract
+We analyzed a decade of median home sale prices from Zillow (2013-2023) to examine potential cities and regions for property investment. Leveraging historical data provided by Zillow, moving averages, volatility measures, and a linear regression model, we present a data-driven approach to identify lucrative investment opportunities. Our exploratory analysis illuminates patterns and predictions in the U.S. housing market.
 
-Using median sale prices from Zillow, can we use historic prices to predict the best cities to move to in the next few years.?
-
+## Methods
+* **Data Acquisition**: Extracted median home sale prices for U.S. cities from Zillow's database spanning 2013 to 2023.
+* **Preliminary Analysis**: Surveyed the broad landscape of U.S. median home prices.
+* **Geographical Aggregation**: Segmented data into five distinct geographic regions for a detailed study.
+* **Data Exploration**:
+  * Calculated monthly moving averages for each region.
+  * Determined percentage price changes per month.
+  * Evaluated seasonal price fluctuations.
+* **Predictive Modeling**: Implemented a linear regression model to forecast city-specific housing price trends.
+* **Visualization**: Charted year-over-year growth for metropolitan areas to visualize emerging patterns.
+## Limitations
+* Data uses MEDIAN price of homes in each city and is not an actual measure of true changes in price per individual home.
+* Linear regression model may not be appropriate for time-course price predictions. ML models and other clustering techniques may provide more accurate predictions/ recommendations.
+* Does not include local/ state property taxes and laws.
+* Is not normalized to account for population of each city.
+* Does not factor in underlying political/ social/ economic/ environmental/ related drivers in price.
+  * Ie, supply/ demand, size of homes, age of home, home amenities, neighborhood qualities, population density, interest rates, etc.
+* Property investments are NOT liquid investments.
+* 
+## Conclusions 
+* Price of homes in large metro areas (Los Angeles, CA & New York, NY, etc.) has had a steady increase in price over the past decade.
+  * Has a higher barrier of entry
+* Price of homes in smaller metro areas experience higher volatility in prices and are more unpredictable.
+  * Has a lower barrier of entry
+* West coast continues to dominate housing market, but has begun to show a drop in price, which may indicate a buy.
+* East coast (north and south) is experiencing a rapid increase in price by a factor of $1500 and $1700 per MONTH in our regression model
+* Price of homes can peak as much as 3% for the month of June and drop by 3% October
+* We predict that the NE and SE will continue to grow in the next few years.
+* Homes on the West coast may have reached a local max and is beginning to fall back closer to our regression model.
+  * Our regression model shows that it is increasing at over $2500 a month in the past 10 years.
+* Midwest and Southwest experience higher volatility but has been increasing overall based on moving averages.
+* 
 ## Data Sources and APIs
-Zillow and Census (to normalize prices with population)
+[Zillow Real Estate Metrics](https://www.zillow.com/research/data/)
 
-## Approaches and Tasks
-- [ ] ~~Get census data from 2008 to 2023, clean and sort data**~~  Not within scope
-- [x] Clean Zillow Data
-- [ ] Summary Statistics #Riya
-  - [ ] Average median price of each city over all timepoints
-  - [ ] Average median prices across all cities per month
-  - [ ] Deviation of average median prices (Did we see any abnormal % changes in each city?) (Use box plots)
-  - [ ] What is the central tendency (the median of medians)
-  - [ ] Where are all the priciest cities located geographically?
-
-- [ ] Exploratory/ Inferential #Paul
-  - [ ] Calculate monthly moving averages of median housing prices across all cities and observe which cities move the slowest and fastest
-    - [ ] Calculate 3 month moving average (df.rolling())
-    - [ ] Calculate 1 month moving average(df.rolling())
-  - [ ] How does population affect the median value of properties?*
-    - [ ] Use census data to normalize average price of the year/10000 people*
-
-  - [ ] Calculate % change per month #Andrew
-    - [ ] Which cities has the most volatile housing markets?(df_means.groupby(state)[‘year’].max()
-      * ie the highest number of large % changes
-    - [ ] Which cities has the most stable hosing markets?
-      * ie the lowest number of large % changes
-    - [ ] How does seasons affect prices across states? #Mads
-      - [ ] Box plots of % change across all cities, grouped by season  
-  - [ ] Use the data to predict how the cities will trend in the next few years?
-    - [ ] Calculate probability?
-  - [ ] Plot year over year growth of each metropolitan city #Mads
-  - [ ] What the best up and coming cities to move to in each state? (Plot using hvplot) 
-
+## Tasks and Responsibilities 
+- [x] Clean Zillow Data #Andrew #Paul
+- [x] Summary Statistics #Riya
+  - [x] Average median price of each city over all timepoints
+  - [x] Average median prices across all cities per month
+  - [x] What is the central tendency (the median of medians)
+  - [x] What are the most expensive/ affordable cities?
+- [x] Exploratory #Paul
+  - [x] Calculate monthly moving averages of median housing prices across all cities and observe which cities move the slowest and fastest
+    - [x] Calculate 3 month moving average 
+    - [x] Calculate 1 month moving average
+  - [x] Calculate % change per month #Andrew
+    - [x] Which cities has the highest variance in price changes?
+    - [x] Which cities has the lowest variance in price changes?
+  - [x] How do seasons affect prices? 
+  - [x] Use linear regression to predict how the cities will trend #Mads
+  - [x] Plot year over year growth of each metropolitan city 
 
 ## Contributors
 * [Andrew Cheng](https://github.com/anderoos)
