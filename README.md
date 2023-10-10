@@ -1,6 +1,6 @@
 # Property Investment Opportunities in 2025
 ###### Authors: Andrew Cheng, Paul Samaniego, Riya Gajjar , Madeline Cruz
-[Link to presentation](https://docs.google.com/presentation/d/1hGc5EfDDzNYhX1ClyUOcX7RNmIBS32VOmX1wYN52QlA/edit#slide=id.g28a3fdb79a2_0_20)
+[Link to presentation](https://docs.google.com/presentation/d/1hGc5EfDDzNYhX1ClyUOcX7RNmIBS32VOmX1wYN52QlA/edit#slide=id.p)
 
 ## Abstract
 We analyzed a decade of median home sale prices from Zillow (2013-2023) to examine potential cities and regions for property investment. Leveraging historical data provided by Zillow, moving averages, volatility measures, and a linear regression model, we present a data-driven approach to identify lucrative investment opportunities. Our exploratory analysis illuminates patterns and predictions in the U.S. housing market.
@@ -23,24 +23,40 @@ We analyzed a decade of median home sale prices from Zillow (2013-2023) to exami
 * Does not factor in underlying political/ social/ economic/ environmental/ related drivers in price.
   * Ie, supply/ demand, size of homes, age of home, home amenities, neighborhood qualities, population density, interest rates, etc.
 * Property investments are NOT liquid investments.
-* 
+  ![alt-text]()
 ## Conclusions 
-* Price of homes in large metro areas (Los Angeles, CA & New York, NY, etc.) has had a steady increase in price over the past decade.
-  * Has a higher barrier of entry
+* Average median home price has nearly doubled in the past decade.
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/SummaryStatiscs/CentralT2013.png)
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/SummaryStatiscs/CentralT2023.png) 
+* Price of homes in large metro areas (Los Angeles, CA & New York, NY, etc.) has had a steady increase in price over the past decade. Higher barrier of entry.
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/SummaryStatiscs/Top5.png)
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/variabity_top_bottom.png)
 * Price of homes in smaller metro areas experience higher volatility in prices and are more unpredictable.
-  * Has a lower barrier of entry
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/SummaryStatiscs/Bottom5.png)
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/variabity_top_bottom.png)
 * West coast continues to dominate housing market, but has begun to show a drop in price, which may indicate a buy.
+    ![alt-text]()
 * East coast (north and south) is experiencing a rapid increase in price by a factor of $1500 and $1700 per MONTH in our regression model
+    ![alt-text]()
+    ![alt-text]()
 * Price of homes can peak as much as 3% for the month of June and drop by 3% October
+    ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/avg_price_change_by_month.png)
 * We predict that the NE and SE will continue to grow in the next few years.
+    ![alt-text]()
+    ![alt-text]()
 * Homes on the West coast may have reached a local max and is beginning to fall back closer to our regression model.
-  * Our regression model shows that it is increasing at over $2500 a month in the past 10 years.
+    ![alt-text]()
+    ![alt-text]()
+* Our regression model shows that it is increasing at over $2500 a month in the past 10 years.
+    ![alt-text]()  
 * Midwest and Southwest experience higher volatility but has been increasing overall based on moving averages.
-* 
+    ![alt-text]()
 ## Data Sources and APIs
 [Zillow Real Estate Metrics](https://www.zillow.com/research/data/)
 
 ## Tasks and Responsibilities 
+- [x] Task delegation #Andrew
+- [X] README file #Andrew
 - [x] Clean Zillow Data #Andrew #Paul
 - [x] Summary Statistics #Riya
   - [x] Average median price of each city over all timepoints
