@@ -41,7 +41,7 @@ We analyzed a decade of median home sale prices from Zillow (2013-2023) to exami
     ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Volatility/variabity_top_bottom.png)
   
  * West coast continues to dominate housing market, but has begun to show a drop in price, which may indicate a buy.
- * 
+   
     ![alt-text](https://github.com/anderoos/dv-property-investments-2025/blob/main/Images/Moving%20Averages/Cities_by_Region/12MMA_West_Cities_line.png)
    
  * East coast (north and south) is experiencing a rapid increase in price with top states moving with a factor of $1500 and $1700 per MONTH in our regression model
